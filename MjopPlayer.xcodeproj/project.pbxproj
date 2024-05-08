@@ -8,21 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		8A3AB6472BE41C5A00B39273 /* MjopPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AB6462BE41C5A00B39273 /* MjopPlayerApp.swift */; };
-		8A3AB6492BE41C5A00B39273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AB6482BE41C5A00B39273 /* ContentView.swift */; };
 		8A3AB64B2BE41C5E00B39273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3AB64A2BE41C5E00B39273 /* Assets.xcassets */; };
 		8A3AB64E2BE41C5E00B39273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3AB64D2BE41C5E00B39273 /* Preview Assets.xcassets */; };
+		8A6DCEA62BE4273E0045163C /* PlayerViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DCEA52BE4273E0045163C /* PlayerViewControllerRepresentable.swift */; };
+		8A6DCEA82BE42F070045163C /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DCEA72BE42F070045163C /* VideoPlayerViewModel.swift */; };
+		8A6DCEAB2BE440E00045163C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DCEAA2BE440E00045163C /* AppDelegate.swift */; };
+		8A6DCEAF2BE909450045163C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DCEAE2BE909450045163C /* ContentView.swift */; };
+		8AFE12542BEB43C50019489E /* MjopPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE12532BEB43C50019489E /* MjopPlayerTests.swift */; };
+		8AFE125D2BEB4E5A0019489E /* Publishers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE125C2BEB4E5A0019489E /* Publishers+Extensions.swift */; };
+		8AFE125F2BEB4EC90019489E /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE125E2BEB4EC90019489E /* Notification+Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AFE12552BEB43C50019489E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3AB63B2BE41C5A00B39273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A3AB6422BE41C5A00B39273;
+			remoteInfo = MjopPlayer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A3AB6432BE41C5A00B39273 /* MjopPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MjopPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3AB6462BE41C5A00B39273 /* MjopPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MjopPlayerApp.swift; sourceTree = "<group>"; };
-		8A3AB6482BE41C5A00B39273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A3AB64A2BE41C5E00B39273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3AB64D2BE41C5E00B39273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A6DCEA52BE4273E0045163C /* PlayerViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		8A6DCEA72BE42F070045163C /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		8A6DCEA92BE4309D0045163C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6DCEAA2BE440E00045163C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A6DCEAE2BE909450045163C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AFE12512BEB43C50019489E /* MjopPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MjopPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFE12532BEB43C50019489E /* MjopPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MjopPlayerTests.swift; sourceTree = "<group>"; };
+		8AFE125C2BEB4E5A0019489E /* Publishers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publishers+Extensions.swift"; sourceTree = "<group>"; };
+		8AFE125E2BEB4EC90019489E /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8A3AB6402BE41C5A00B39273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE124E2BEB43C50019489E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				8A3AB6452BE41C5A00B39273 /* MjopPlayer */,
+				8A6DCEAD2BE441430045163C /* SupportingFiles */,
+				8AFE12522BEB43C50019489E /* MjopPlayerTests */,
 				8A3AB6442BE41C5A00B39273 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				8A3AB6432BE41C5A00B39273 /* MjopPlayer.app */,
+				8AFE12512BEB43C50019489E /* MjopPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +85,11 @@
 		8A3AB6452BE41C5A00B39273 /* MjopPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				8A3AB6462BE41C5A00B39273 /* MjopPlayerApp.swift */,
-				8A3AB6482BE41C5A00B39273 /* ContentView.swift */,
-				8A3AB64A2BE41C5E00B39273 /* Assets.xcassets */,
+				8AFE125A2BEB4DDD0019489E /* Shared */,
+				8A6DCEAC2BE440F60045163C /* Core */,
 				8A3AB64C2BE41C5E00B39273 /* Preview Content */,
+				8A3AB6462BE41C5A00B39273 /* MjopPlayerApp.swift */,
+				8A6DCEA92BE4309D0045163C /* Info.plist */,
 			);
 			path = MjopPlayer;
 			sourceTree = "<group>";
@@ -65,6 +100,50 @@
 				8A3AB64D2BE41C5E00B39273 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A6DCEAC2BE440F60045163C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A6DCEAE2BE909450045163C /* ContentView.swift */,
+				8A6DCEA52BE4273E0045163C /* PlayerViewControllerRepresentable.swift */,
+				8A6DCEA72BE42F070045163C /* VideoPlayerViewModel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8A6DCEAD2BE441430045163C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8A6DCEAA2BE440E00045163C /* AppDelegate.swift */,
+				8A3AB64A2BE41C5E00B39273 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8AFE12522BEB43C50019489E /* MjopPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE12532BEB43C50019489E /* MjopPlayerTests.swift */,
+			);
+			path = MjopPlayerTests;
+			sourceTree = "<group>";
+		};
+		8AFE125A2BEB4DDD0019489E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE125B2BEB4DE90019489E /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8AFE125B2BEB4DE90019489E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE125C2BEB4E5A0019489E /* Publishers+Extensions.swift */,
+				8AFE125E2BEB4EC90019489E /* Notification+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +166,24 @@
 			productReference = 8A3AB6432BE41C5A00B39273 /* MjopPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8AFE12502BEB43C50019489E /* MjopPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFE12572BEB43C50019489E /* Build configuration list for PBXNativeTarget "MjopPlayerTests" */;
+			buildPhases = (
+				8AFE124D2BEB43C50019489E /* Sources */,
+				8AFE124E2BEB43C50019489E /* Frameworks */,
+				8AFE124F2BEB43C50019489E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFE12562BEB43C50019489E /* PBXTargetDependency */,
+			);
+			name = MjopPlayerTests;
+			productName = MjopPlayerTests;
+			productReference = 8AFE12512BEB43C50019489E /* MjopPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +196,10 @@
 				TargetAttributes = {
 					8A3AB6422BE41C5A00B39273 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					8AFE12502BEB43C50019489E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8A3AB6422BE41C5A00B39273;
 					};
 				};
 			};
@@ -116,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				8A3AB6422BE41C5A00B39273 /* MjopPlayer */,
+				8AFE12502BEB43C50019489E /* MjopPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +232,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AFE124F2BEB43C50019489E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +246,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3AB6492BE41C5A00B39273 /* ContentView.swift in Sources */,
+				8A6DCEA82BE42F070045163C /* VideoPlayerViewModel.swift in Sources */,
 				8A3AB6472BE41C5A00B39273 /* MjopPlayerApp.swift in Sources */,
+				8AFE125D2BEB4E5A0019489E /* Publishers+Extensions.swift in Sources */,
+				8AFE125F2BEB4EC90019489E /* Notification+Extensions.swift in Sources */,
+				8A6DCEAB2BE440E00045163C /* AppDelegate.swift in Sources */,
+				8A6DCEA62BE4273E0045163C /* PlayerViewControllerRepresentable.swift in Sources */,
+				8A6DCEAF2BE909450045163C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE124D2BEB43C50019489E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFE12542BEB43C50019489E /* MjopPlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AFE12562BEB43C50019489E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A3AB6422BE41C5A00B39273 /* MjopPlayer */;
+			targetProxy = 8AFE12552BEB43C50019489E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8A3AB64F2BE41C5E00B39273 /* Debug */ = {
@@ -269,11 +399,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MjopPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = B65HKAD7C7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MjopPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -286,6 +419,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mjop.MjopPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,11 +431,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MjopPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = B65HKAD7C7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MjopPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,9 +451,50 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mjop.MjopPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AFE12582BEB43C50019489E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65HKAD7C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mjop.MjopPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MjopPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MjopPlayer";
+			};
+			name = Debug;
+		};
+		8AFE12592BEB43C50019489E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65HKAD7C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mjop.MjopPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MjopPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MjopPlayer";
 			};
 			name = Release;
 		};
@@ -337,6 +515,15 @@
 			buildConfigurations = (
 				8A3AB6522BE41C5E00B39273 /* Debug */,
 				8A3AB6532BE41C5E00B39273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFE12572BEB43C50019489E /* Build configuration list for PBXNativeTarget "MjopPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFE12582BEB43C50019489E /* Debug */,
+				8AFE12592BEB43C50019489E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
