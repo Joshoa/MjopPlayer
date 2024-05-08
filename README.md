@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/Joshoa/MjopPlayer/blob/main/media/logo.png"> <img src="https://github.com/Joshoa/MjopPlayer/blob/main/media/logo.png?raw=true" style="width: 250px; max-width: 100%; height: auto" title="MjopPlayer" alt="MjopPlayer" /> </a>
+<a href="https://github.com/Joshoa/MjopPlayer/blob/main/media/mjopplayer_tag.png"> <img src="https://github.com/Joshoa/MjopPlayer/blob/main/media/mjopplayer_tag.png?raw=true" style="width: auto; max-width: 100%; height: 250px" title="MjopPlayer" alt="MjopPlayer" /> </a>
 </p>
 
 # MjopPlayer
